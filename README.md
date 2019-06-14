@@ -16,3 +16,7 @@ You have to have the following:
 
 # Set-Up
 Run the program after you have entered your API keys and the Client ID, and look on discord. Now you can play Music and it'll update in seconds!
+
+# How I "compiled" the script and why
+No, it's not because of DRM (bruh)
+It's because exe is easier to manage under Windows than .py, you can add it to your auto-start, you don't need dependencys and more.
