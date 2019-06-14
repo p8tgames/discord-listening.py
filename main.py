@@ -86,14 +86,14 @@ if config:
 
 else:
 
-    Label(root, text="ClientID").grid(row=0, sticky=W)  # label
-    Entry(root, textvariable=clnt1).grid(row=0, column=1, sticky=E)  # entry textbox
-    Label(root, text="last.fm API").grid(row=1, sticky=W)  # label
-    Entry(root, textvariable=api1).grid(row=1, column=1, sticky=E)  # entry textbox
-    Label(root, text="last.fm SECRET API").grid(row=2, sticky=W)  # label
-    Entry(root, textvariable=api2).grid(row=2, column=1, sticky=E)  # entry textbox
-    Label(root, text="last.fm Username").grid(row=3, sticky=W)  # label
-    Entry(root, textvariable=uname).grid(row=3, column=1, sticky=E)  # entry textbox
+    Label(root, text="ClientID").grid(row=0, sticky=W)
+    Entry(root, textvariable=clnt1).grid(row=0, column=1, sticky=E)
+    Label(root, text="last.fm API").grid(row=1, sticky=W)
+    Entry(root, textvariable=api1).grid(row=1, column=1, sticky=E)
+    Label(root, text="last.fm SECRET API").grid(row=2, sticky=W)
+    Entry(root, textvariable=api2).grid(row=2, column=1, sticky=E)
+    Label(root, text="last.fm Username").grid(row=3, sticky=W)
+    Entry(root, textvariable=uname).grid(row=3, column=1, sticky=E)
 
     SaveButton = Button(root, text="Save settings", command=getvalue).grid(row=4, column=0, sticky=W)  # button
     PreviewButton = Button(root, text="Preview / Test", command=getvaluetest).grid(row=4, column=1, sticky=W)  # button
