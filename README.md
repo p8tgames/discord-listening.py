@@ -25,4 +25,4 @@ Run the program after you have entered your API keys and the Client ID, and look
 
 ## How I "compiled" the script and why
 No, it's not because of DRM (bruh)
-It's because exe is easier to manage under Windows than .py, you can add it to your auto-start, you don't need dependencys and more.
+It's because exe is easier to manage under Windows than .py, you can add it to your auto-start, you don't need dependencies and more.
