@@ -38,7 +38,6 @@ def importold():
     else:
         copyfile(root.filename, "settings.stg")
         messagebox.showinfo("Settings file imported and checked!", "Please restart this program for it to take effect!")
-    
 
 def getvalue():
 
