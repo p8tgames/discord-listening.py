@@ -6,13 +6,13 @@ A small program to let your last.fm status appear on your discord profile. So yo
 ## How it works
 You have to have the following:
 
-- a [last.fm](https://last.fm) account
+-   a [last.fm](https://last.fm) account
 
-- a [last.fm API key](https://last.fm/api)
+-   a [last.fm API key](https://last.fm/api)
 
-- a [Discord Client ID](https://discordapp.com/developers/applications/)
+-   a [Discord Client ID](https://discordapp.com/developers/applications/)
 
-- a music streaming service that supports last.fm like
+-   a music streaming service that supports last.fm like
 
       -TIDAL
       -Deezer
